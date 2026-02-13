@@ -164,7 +164,6 @@
 
 @utility star {
   @apply absolute rounded-full bg-white;
-  background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
 }
 

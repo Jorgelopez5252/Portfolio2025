@@ -34,7 +34,7 @@ export const StarBackground = () => {
         height:star.size + "px" ,
         left:star.x + "%" ,
         top: star.y + "%" ,
-        opacity: star.size ,
+        opacity: star.opacity ,
         animationDuration: star.animationDuration + "s",
     }}/>
  ))}
