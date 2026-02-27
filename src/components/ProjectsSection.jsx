@@ -1,5 +1,5 @@
-import { map } from "react";
-
+import { ExternalLink, Github } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
@@ -8,8 +8,8 @@ const projects = [
     description:
       "A responsive laptop product page built with React and Tailwind CSS.",
     image: "/projects/portfolio_image_1.png",
-    tags: ["React", "Tailwind CSS", "Responsive Design"],
-    demoURl: "#",
+    tags: ["React", "Tailwind CSS", "intuitive Design"],
+    demoUrl: "#",
     githubUrl: "#",
   },
   {
@@ -18,8 +18,8 @@ const projects = [
     description:
       "A responsive mobile app landing page built with React and Tailwind CSS.",
     image: "/projects/portfolio_image_2.png",
-    tags: ["React", "Tailwind CSS", "Responsive Design"],
-    demoURl: "#",
+    tags: ["Python", "Bootstrap", "Responsive Design"],
+    demoUrl: "#",
     githubUrl: "#",
   },
   {
@@ -28,8 +28,8 @@ const projects = [
     description:
       "A responsive desktop application landing page built with React and Tailwind CSS.",
     image: "/projects/portfolio_image_3.png",
-    tags: ["React", "Tailwind CSS", "Responsive Design"],
-    demoURl: "#",
+    tags: ["MySQL", "Tailwind CSS", "Efficient Design"],
+    demoUrl: "#",
     githubUrl: "#",
   },
 ];
@@ -59,15 +59,49 @@ export const ProjectSection = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              {/* <div className="p-6">
+              <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {projects.tags.map((tag) => (
-                    <span>{tag}</span>
+                  {project.tags.map((tag) => (
+                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                      {tag}
+                    </span>
                   ))}
                 </div>
-              </div> */}
+
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-muted-foreground text-sm mb-2">
+                  {project.description}
+                </p>
+                <div className="flex justify-between items-center">
+                  <div className="flex space-x-3">
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <ExternalLink size={20} />
+                    </a>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <Github size={20} />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-12">
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            target="_blank"
+            href="https://github.com/Jorgelopez5252"
+          >
+            Check my GitHub <ArrowRight size={16} />
+          </a>
         </div>
       </div>
     </section>
