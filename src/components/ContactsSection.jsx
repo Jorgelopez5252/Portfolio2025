@@ -1,7 +1,15 @@
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const ContactsSection = () => {
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+
+//     setTimeout(() => {
+//     //    Install toast for test case
+//     }, 1500);
+//   };
+
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
@@ -121,10 +129,18 @@ export const ContactsSection = () => {
                   id="message"
                   name="message"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none mb-5"
                   placeholder="Hello, I would like to get in touch with you..."
                 />
-                <button type="submit" className={cn()}></button>
+                <button
+                  type="submit"
+                  className={cn(
+                    "cosmic-button w-full flex items-center justify-center gap-2",
+                  )}
+                >
+                  Send Message
+                  <Send size={16} />
+                </button>
               </div>
             </form>
           </div>

@@ -9,7 +9,7 @@ export const HeroSection = () => {
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                     <span className="opacity-0 ml- animate-fade-in"> Hi, I'm</span>
                     <span className="text-primary opacity-0 animate-fade-in-delay-1"> Jorge</span>
-                    <span className="text-gradient opacity-0 animate-fade-in-delay-2"> Lopez</span>
+                    <span className="text-gradient opacity-0 animate-fade-in-delay-2"> Antonio Lopez</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, doloribus perspiciatis ipsa autem numquam, impedit sapiente dolorum molestiae! Reiciendis repudiandae ex aperiam, dolorem eveniet impedit laborum saepe?
