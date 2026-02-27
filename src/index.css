@@ -20,7 +20,6 @@
   --animate-meteor: meteor 5s ease-in-out infinite;
 
   @keyframes float {
-
     0%,
     100% {
       transform: translateY(0);
@@ -32,7 +31,6 @@
   }
 
   @keyframes pulse-subtle {
-
     0%,
     100% {
       opacity: 1;
@@ -73,7 +71,6 @@
 }
 
 @layer base {
-
   /* light theme */
   :root {
     --background: 210 40% 98%;
@@ -87,8 +84,6 @@
     --border: 214 32% 91%;
   }
 
-
-
   /* dark theme */
   .dark {
     --background: 222 47% 4%;
@@ -96,21 +91,23 @@
 
     --card: 222 47% 8%;
 
-    --primary: 250 65% 65%;
+    --primary: 250 85% 65%;
     --primary-forground: 213 31% 91%;
 
     --border: 217 33% 20%;
   }
 
-  *  {
+  * {
     @apply border-border;
   }
-   html {
+  html {
     @apply scroll-smooth;
   }
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 }
 
@@ -139,7 +136,6 @@
   }
 }
 
-
 @utility text-glow {
   @apply relative;
   text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
@@ -159,7 +155,6 @@
 @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] 
   hover:scale-105 active:scale-95;
-
 }
 
 @utility star {
@@ -173,8 +168,8 @@
 }
 
 #root {
-  max-width:100%;
-  margin:0 auto;
+  max-width: 100%;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
 }
