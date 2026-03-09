@@ -15,9 +15,8 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 4 plus years of experience in building responsive and
-              user-friendly websites and applications using modern web
-              technologies.
+              With over 5 years of experience in building responsive and
+              user-friendly websites and applications using modern web&nbsp;technologies.
             </p>
 
             <p className="text-muted-foreground">
@@ -74,7 +73,7 @@ export const AboutSection = () => {
                   <h4 className="font-semibold text-lg">Project Managment</h4>
                   <p className="text-muted-foreground">
                     Managing and delivering successful web development projects
-                    from concept to deployment.
+                    from concept to&nbsp;deployment.
                   </p>
                 </div>
               </div>
