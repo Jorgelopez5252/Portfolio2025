@@ -6,15 +6,18 @@ export const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark") {
-      setIsDarkMode(true);
-      document.documentElement.classList.add("dark");
-    } else {
-      localStorage.setItem("theme", "light");
-      setIsDarkMode(false);
-    }
-  }, []);
+  const storedTheme = localStorage.getItem("theme") || "dark";
+
+  if (storedTheme === "dark") {
+    document.documentElement.classList.add("dark");
+    setIsDarkMode(true);
+  } else {
+    document.documentElement.classList.remove("dark");
+    setIsDarkMode(false);
+  }
+
+  localStorage.setItem("theme", storedTheme);
+}, []);
 
   const toggleTheme = () => {
     if (isDarkMode) {
@@ -34,7 +37,7 @@ export const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       className={cn(
-        "fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300,",
+        "fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
         "focus:outline-hidden",
       )}
     >
