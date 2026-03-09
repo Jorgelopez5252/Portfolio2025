@@ -32,7 +32,7 @@ export const ThemeToggle = () => {
     }
   };
 
-  // hmm
+  // button to toggle between light and dark mode, only visible on screens larger than 640px
   // return (
   //   <button
   //     onClick={toggleTheme}

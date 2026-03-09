@@ -4,33 +4,33 @@ import { ArrowRight } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Laptop Project",
+    title: "The Office Fan Quiz",
     description:
-      "A responsive laptop product page built with React and Tailwind CSS.",
-    image: "/projects/portfolio_image_1.png",
-    tags: ["React", "Tailwind CSS", "intuitive Design"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A Fun and Engaging Quiz App Built with Vue.js and deployesd on Vercel, testing your knowledge of The Office TV show.",
+    image: "/projects/portfolio_image_1.jpeg",
+    tags: ["Vue.js", "Trivia", "Mobile Friendly Design"],
+    demoUrl: "https://vue-quiz-mauve.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/vue-quiz/tree/main",
   },
   {
-    id: 1,
-    title: "Mobile App Project",
+    id: 2,
+    title: "React Calculator",
     description:
-      "A responsive mobile app landing page built with React and Tailwind CSS.",
+      "A modern, responsive calculator built with React that uses the eval function and state hooks to provide real-time calculation previews for fast and intuitive arithmetic operations",
     image: "/projects/portfolio_image_2.png",
-    tags: ["Python", "Bootstrap", "Responsive Design"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "JavaScript", "Responsive Design"],
+    demoUrl: "https://calculator-react-ten-delta.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/calculator-react",
   },
   {
-    id: 1,
-    title: "Desktop Project",
+    id: 3,
+    title: "React Weather App",
     description:
-      "A responsive desktop application landing page built with React and Tailwind CSS.",
+      "A beautiful , responsive , and modern React JS Weather app. To connect and display data I use React State to manage logic and axios to connect to OpenWeatherMap API. Can be viewed on both mobile and desktop.",
     image: "/projects/portfolio_image_3.png",
-    tags: ["MySQL", "Tailwind CSS", "Efficient Design"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "JavaScript", "API Integration"],
+    demoUrl: "https://react-weather-app-five-wine.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/react-weather-app",
   },
 ];
 
