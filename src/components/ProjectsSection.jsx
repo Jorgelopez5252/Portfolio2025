@@ -8,7 +8,7 @@ const projects = [
     description:
       "A Fun and Engaging Quiz App Built with Vue.js and deployesd on Vercel, testing your knowledge of The Office TV show.",
     image: "/projects/portfolio_image_1.jpeg",
-    tags: ["Vue.js", "Trivia", "Mobile Friendly Design"],
+    tags: ["Vue.js", "Trivia/Game", "Javascript"],
     demoUrl: "https://vue-quiz-mauve.vercel.app/",
     githubUrl: "https://github.com/Jorgelopez5252/vue-quiz/tree/main",
   },
@@ -18,7 +18,7 @@ const projects = [
     description:
       "A modern, responsive calculator built with React that uses the eval function and state hooks to provide real-time calculation previews for fast and intuitive arithmetic operations",
     image: "/projects/portfolio_image_2.png",
-    tags: ["React", "JavaScript", "Responsive Design"],
+    tags: ["React", "JavaScript", "Responsive"],
     demoUrl: "https://calculator-react-ten-delta.vercel.app/",
     githubUrl: "https://github.com/Jorgelopez5252/calculator-react",
   },
@@ -31,6 +31,16 @@ const projects = [
     tags: ["React", "JavaScript", "API Integration"],
     demoUrl: "https://react-weather-app-five-wine.vercel.app/",
     githubUrl: "https://github.com/Jorgelopez5252/react-weather-app",
+  },
+    {
+    id: 4,
+    title: "Responsive Landing Page",
+    description:
+      "A responsive landing page built with React and Tailwind CSS for a mock VR development company, showcasing modern UI design and seamless performance across all screen sizes.",
+    image: "/projects/portfolio_image_4.png",
+    tags: ["React", "Tailwind", "Responsive Design"],
+    demoUrl: "https://tailwind-react-lp.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/Tailwind-ReactLP",
   },
 ];
 
