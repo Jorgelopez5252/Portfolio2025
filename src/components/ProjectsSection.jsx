@@ -52,6 +52,16 @@ const projects = [
     demoUrl: "https://pokemonworld-beryl.vercel.app/",
     githubUrl: "https://github.com/Jorgelopez5252/pokemonworld",
   },
+      {
+    id: 5,
+    title: "Tetris C #",
+    description:
+      "A classic Tetris clone built in C# using WPF. Features include piece rotation, line clearing, score tracking, and increasing difficulty over time.",
+    image: "/projects/portfolio_image_6.png",
+    tags: ["C#", "Game", "CSS"],
+    demoUrl: "https://tetris-c-sharp-webpage.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/Tetris-C-Sharp/tree/master",
+  },
 ];
 
 export const ProjectSection = () => {
