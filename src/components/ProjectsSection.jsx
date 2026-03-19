@@ -42,6 +42,16 @@ const projects = [
     demoUrl: "https://tailwind-react-lp.vercel.app/",
     githubUrl: "https://github.com/Jorgelopez5252/Tailwind-ReactLP",
   },
+     {
+    id: 5,
+    title: "Pokemon World",
+    description:
+      "Fetch Pokémon data from a public API, using server Components & Client Components with Nextjs 16, Tailwind Css, Typescript, Pokemon Api.",
+    image: "/projects/portfolio_image_5.png",
+    tags: ["API", "Nextjs", "Typescript"],
+    demoUrl: "https://pokemonworld-beryl.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/pokemonworld",
+  },
 ];
 
 export const ProjectSection = () => {
