@@ -12,7 +12,7 @@ export const HeroSection = () => {
                     <span className="text-gradient opacity-0 animate-fade-in-delay-2"> Antonio Lopez</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    Frontend Developer and UX Engineer with 5 years of experience designing and building responsive, user-centered web applications. Skilled in React, JavaScript, HTML, and CSS, with experience contributing to enterprise platforms and projects associated with brands like Coca-Cola, Pepsi, the NFL, Starbucks, Venmo, and PayPal.
+                    Frontend Developer and UX Engineer with 5 years of experience designing and building responsive, user-centered web applications. 
                 </p>
 
                 <div className="opacity-0 animate-fade-in-delay-4">

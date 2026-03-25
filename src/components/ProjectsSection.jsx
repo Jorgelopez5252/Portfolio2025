@@ -4,6 +4,36 @@ import { ArrowRight } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Responsive Landing Page",
+    description:
+      "A responsive landing page built with React and Tailwind CSS for a mock VR development company, showcasing modern UI design and seamless performance across all screen sizes.",
+    image: "/projects/portfolio_image_4.png",
+    tags: ["React", "Tailwind", "Responsive Design"],
+    demoUrl: "https://tailwind-react-lp.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/Tailwind-ReactLP",
+  },
+  {
+    id: 2,
+    title: "Tetris C #",
+    description:
+      "A classic Tetris clone built in C# using WPF. Features include piece rotation, line clearing, score tracking, and increasing difficulty over time.",
+    image: "/projects/portfolio_image_6.png",
+    tags: ["C#", "Game", "CSS"],
+    demoUrl: "https://tetris-c-sharp-webpage.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/Tetris-C-Sharp/tree/master",
+  },
+  {
+    id: 3,
+    title: "Pokemon World",
+    description:
+      "Fetch Pokémon data from a public API, using server Components & Client Components with Nextjs 16, Tailwind Css, Typescript, Pokemon Api.",
+    image: "/projects/portfolio_image_5.png",
+    tags: ["API", "Nextjs", "Typescript"],
+    demoUrl: "https://pokemonworld-beryl.vercel.app/",
+    githubUrl: "https://github.com/Jorgelopez5252/pokemonworld",
+  },
+  {
+    id: 4,
     title: "The Office Fan Quiz",
     description:
       "A Fun and Engaging Quiz App Built with Vue.js and deployesd on Vercel, testing your knowledge of The Office TV show.",
@@ -13,7 +43,7 @@ const projects = [
     githubUrl: "https://github.com/Jorgelopez5252/vue-quiz/tree/main",
   },
   {
-    id: 2,
+    id: 5,
     title: "React Calculator",
     description:
       "A modern, responsive calculator built with React that uses the eval function and state hooks to provide real-time calculation previews for fast and intuitive arithmetic operations",
@@ -23,7 +53,7 @@ const projects = [
     githubUrl: "https://github.com/Jorgelopez5252/calculator-react",
   },
   {
-    id: 3,
+    id: 6,
     title: "React Weather App",
     description:
       "A beautiful , responsive , and modern React JS Weather app. To connect and display data I use React State to manage logic and axios to connect to OpenWeatherMap API. Can be viewed on both mobile and desktop.",
@@ -31,36 +61,6 @@ const projects = [
     tags: ["React", "JavaScript", "API Integration"],
     demoUrl: "https://react-weather-app-five-wine.vercel.app/",
     githubUrl: "https://github.com/Jorgelopez5252/react-weather-app",
-  },
-    {
-    id: 4,
-    title: "Responsive Landing Page",
-    description:
-      "A responsive landing page built with React and Tailwind CSS for a mock VR development company, showcasing modern UI design and seamless performance across all screen sizes.",
-    image: "/projects/portfolio_image_4.png",
-    tags: ["React", "Tailwind", "Responsive Design"],
-    demoUrl: "https://tailwind-react-lp.vercel.app/",
-    githubUrl: "https://github.com/Jorgelopez5252/Tailwind-ReactLP",
-  },
-     {
-    id: 5,
-    title: "Pokemon World",
-    description:
-      "Fetch Pokémon data from a public API, using server Components & Client Components with Nextjs 16, Tailwind Css, Typescript, Pokemon Api.",
-    image: "/projects/portfolio_image_5.png",
-    tags: ["API", "Nextjs", "Typescript"],
-    demoUrl: "https://pokemonworld-beryl.vercel.app/",
-    githubUrl: "https://github.com/Jorgelopez5252/pokemonworld",
-  },
-      {
-    id: 5,
-    title: "Tetris C #",
-    description:
-      "A classic Tetris clone built in C# using WPF. Features include piece rotation, line clearing, score tracking, and increasing difficulty over time.",
-    image: "/projects/portfolio_image_6.png",
-    tags: ["C#", "Game", "CSS"],
-    demoUrl: "https://tetris-c-sharp-webpage.vercel.app/",
-    githubUrl: "https://github.com/Jorgelopez5252/Tetris-C-Sharp/tree/master",
   },
 ];
 
@@ -110,6 +110,7 @@ export const ProjectSection = () => {
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
+                      {/* <span className="text-xs">Demo</span> */}
                     </a>
                     <a
                       href={project.githubUrl}
@@ -117,6 +118,8 @@ export const ProjectSection = () => {
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
+                      {/* <span className="text-xs">Repo</span> */}
+
                     </a>
                   </div>
                 </div>

@@ -15,23 +15,26 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in building responsive and
-              user-friendly websites and applications using modern web&nbsp;technologies.
+              Solution-oriented web developer specializing in user interface
+              design and usability testing. Collaborates effectively with
+              cross-functional teams to enhance user engagement through
+              insightful research and prototyping.
             </p>
 
             <p className="text-muted-foreground">
-              Skilled in JavaScript, React, Node.js, and more, I create seamless
-              digital experiences that engage users and drive results.
+              Skilled in JavaScript, React, HTML/CSS, and more, I create
+              seamless digital experiences that engage users and drive results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 Contact Me
               </a>
               <a
-                href=""
+                href="./resume/Resume.pdf"
+                target="blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>
