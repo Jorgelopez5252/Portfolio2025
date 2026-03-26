@@ -2,13 +2,13 @@ import { Mail, Phone, MapPin, Linkedin, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const ContactsSection = () => {
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
+  //   const handleSubmit = (e) => {
+  //     e.preventDefault();
 
-//     setTimeout(() => {
-//     //    Install toast for test case
-//     }, 1500);
-//   };
+  //     setTimeout(() => {
+  //     //    Install toast for test case
+  //     }, 1500);
+  //   };
 
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -25,9 +25,9 @@ export const ContactsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Contact information</h3>
+            {/* <h3 className="text-2xl font-semibold mb-6">Contact information</h3> */}
 
-            <div className="space-y-6 justify-center">
+            <div className="space-y-6 justify-center mt-10">
               <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
@@ -66,19 +66,18 @@ export const ContactsSection = () => {
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Mesa, Arizona, United States
                   </a>
+                  <div className="pt-8">
+                    <h4 className="font-medium mb-4">Connect With Me</h4>
+                    <div className="flex space-x-4 justify-center">
+                      <a
+                        href="https://www.linkedin.com/in/jorge-lopez-895307194/"
+                        target="_blank"
+                      >
+                        <Linkedin />
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="pt-8">
-              <h4 className="font-medium mb-4">Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a
-                  href="https://www.linkedin.com/in/jorge-lopez-895307194/"
-                  target="_blank"
-                >
-                  <Linkedin />
-                </a>
               </div>
             </div>
           </div>
